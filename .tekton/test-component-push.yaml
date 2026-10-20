@@ -22,7 +22,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/abdulwariswani/test-repo:{{revision}}
+    value: quay.io/world/default-tenant/test-component:{{revision}}
   - name: dockerfile
     value: Dockerfile
   - name: path-context
