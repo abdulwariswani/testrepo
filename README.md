@@ -3,9 +3,8 @@
 This component can be used for testing Konflux—especially on a local setup (for example when
 [running on Kind](https://github.com/konflux-ci/konflux-ci?tab=readme-ov-file#konflux-ci)).
 
+
 You can fork it and adjust the pipelines so they reference your fork.
-
-
 
 To simplify initial          local deployments, the pipelines are configured so that images are
 pushed to a local registry deployed on the cluster.
@@ -21,7 +20,9 @@ Konflux maintains two related repositories:
 | [konflux-ci/testrepo-updater](https://github.com/konflux-ci/testrepo-updater) | **Updater** — onboarded to Red Hat Konflux (Mintmaker, builds, `.tekton/` pipelines). This is where day-to-day changes belong. |
 | [konflux-ci/testrepo](https://github.com/konflux-ci/testrepo) | **Public sample** — intended to look like a repo users fork **before** Konflux onboarding (no `.tekton/` in the default tree). Content is produced by mirroring from the updater. |
 
+
 ### Where to make changes
+
 
 **Make changes in [konflux-ci/testrepo-updater](https://github.com/konflux-ci/testrepo-updater)**, not in `konflux-ci/testrepo` directly.
 
