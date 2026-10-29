@@ -26,6 +26,11 @@ Konflux maintains two related repositories:
 
 **Make changes in [konflux-ci/testrepo-updater](https://github.com/konflux-ci/testrepo-updater)**, not in `konflux-ci/testrepo` directly.
 
+
+
+
+
+
 Pull requests, pipeline tweaks, application source, and documentation updates should target the updater. The mirror overwrites `konflux-ci/testrepo` on each successful run, so edits made only on the public repo would be lost.
 
 ### What the mirror does
